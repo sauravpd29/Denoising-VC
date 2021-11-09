@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 import soundfile as sf
-from ./app_utils import model_denoising, play_file_uploaded, process_input_format
+from app_utils import model_denoising, play_file_uploaded, process_input_format
 from config import *
 import moviepy.editor as mp
 
