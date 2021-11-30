@@ -211,7 +211,7 @@ def main():
         cmd = ['parallel-wavegan-decode', '--checkpoint', \
                './vocoder/checkpoint-3000000steps.pkl', \
                '--feats-scp', f'{str(out_dir)}/feats.1.scp', '--outdir', str(out_dir)]
-        subprocess.call(cmd)
+        subprocess.call(cmd, shell=True)
         is_success2=True
         st.success('Conversion Successful')
         
