@@ -10,5 +10,5 @@ pydub>=0.25.1
 pysoundfile
 moviepy
 matplotlib
-streamlit=0.84.0
+streamlit==0.84.0
 tensorflow
