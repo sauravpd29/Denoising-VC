@@ -12,4 +12,4 @@ moviepy
 matplotlib
 streamlit==0.84.0
 tensorflow
-pysndfile
+libsndfile1-dev
